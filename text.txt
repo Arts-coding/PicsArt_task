@@ -1,0 +1,9 @@
+
+Hi!
+
+This is what I imagined and created. We have two files first for interface second for funtcions.
+I want to add more functions and more options like in Redis are, but I did't manage my time properly.
+
+Hope you will like :)
+
+Thank you for good task.
