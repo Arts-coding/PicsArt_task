@@ -1,1 +1,2 @@
-# PicsArt_task
+# PicsArtAcademy_task
+#In-mamory database
