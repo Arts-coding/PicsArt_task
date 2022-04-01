@@ -1,4 +1,3 @@
-from datetime import datetime
 from database import adding, del_entry, get_entries,adding_list
 
 menu = """
@@ -20,7 +19,6 @@ print(welcome)
 while(user_input := input(menu)) != "5":
     if user_input == "1":
         add_content = input('Add string ')
-        add_date = datetime.now().strftime('%Y/%m/%d %H:%M:%S')
         
         if add_content != '':
             adding(add_content)
@@ -41,6 +39,5 @@ while(user_input := input(menu)) != "5":
     
     if user_input == "4":
         add_list = input('Add list item ')
-        add_date = datetime.now().strftime('%Y/%m/%d %H:%M:%S')
         adding_list(add_list)
 
